@@ -1,0 +1,12 @@
+{
+  "name": "myapp",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --inspect=0.0.0.0 index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "redis": "^2.8.0"
+  }
+}
